@@ -1,0 +1,16 @@
+<Combine fileversion="2.0">
+  <Configurations active="Debug|x86">
+    <Configuration name="Debug|x86" ctype="CombineConfiguration">
+      <Entry build="True" name="shantropy" configuration="Debug|x86" />
+    </Configuration>
+    <Configuration name="Release|x86" ctype="CombineConfiguration">
+      <Entry build="True" name="shantropy" configuration="Release|x86" />
+    </Configuration>
+  </Configurations>
+  <StartMode startupentry="shantropy" single="True">
+    <Execute type="None" entry="shantropy" />
+  </StartMode>
+  <Entries>
+    <Entry filename="shantropy\shantropy.mdp" />
+  </Entries>
+</Combine>

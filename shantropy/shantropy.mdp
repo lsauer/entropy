@@ -1,0 +1,24 @@
+<Project name="shantropy" fileversion="2.0" DefaultNamespace="shantropy" language="C#" Configuration="Debug" Platform="x86" AssemblyName="shantropy" TargetFrameworkVersion="v3.5" targetFramework="3.5" ctype="DotNetProject">
+  <Configurations active="Debug|x86">
+    <Configuration name="Debug|x86" Optimize="false" DefineConstants="DEBUG" WarningLevel="4" PlatformTarget="x86" ctype="DotNetProjectConfiguration">
+      <Output directory="bin\Debug" assembly="shantropy" />
+      <Build debugmode="True" target="Exe" />
+      <Execution consolepause="True" externalconsole="True" runwithwarnings="True" runtime="MsNet" />
+      <CodeGeneration compiler="Mcs" warninglevel="4" optimize="False" unsafecodeallowed="False" generateoverflowchecks="False" definesymbols="DEBUG" generatexmldocumentation="False" ctype="CSharpCompilerParameters" />
+    </Configuration>
+    <Configuration name="Release|x86" Optimize="false" WarningLevel="4" PlatformTarget="x86" ctype="DotNetProjectConfiguration">
+      <Output directory="bin\Release" assembly="shantropy" />
+      <Build debugmode="False" target="Exe" />
+      <Execution consolepause="True" externalconsole="True" runwithwarnings="True" runtime="MsNet" />
+      <CodeGeneration compiler="Mcs" warninglevel="4" optimize="False" unsafecodeallowed="False" generateoverflowchecks="False" generatexmldocumentation="False" ctype="CSharpCompilerParameters" />
+    </Configuration>
+  </Configurations>
+  <Contents>
+    <File subtype="Code" buildaction="Compile" name="Main.cs" />
+    <File subtype="Code" buildaction="Compile" name="AssemblyInfo.cs" />
+    <File subtype="Code" buildaction="Exclude" name="app.desktop" DeployService.TargetDirectoryId="Linux.DesktopApplications" />
+  </Contents>
+  <References>
+    <ProjectReference type="Gac" localcopy="True" refto="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  </References>
+</Project>
