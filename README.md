@@ -17,15 +17,24 @@
 <example>
 
  * 
-		**Windows Usage**: 	
-    > type file1.ext file2.ext file3.ext | ent -b 2.15
+	**Windows Usage**: 	
 
-	> "teststringdata" | ent -b 2.15 -s
+
+```bash
+    > type file1.ext file2.ext file3.ext | ent -b 2.15
+    
+    > "teststringdata" | ent -b 2.15 -s
+```
 
  *	
 	**Linux, Mac Usage**: 
 
-    $ type file1.ext file2.ext file3.ext | ent -b 2.15 
+```bash
+    $ cat file1.ext file2.ext file3.ext | ent -b 2.15
+    
+    $ "sometextdata" | ent -b 64 -s
+```
+
 
 </example>
 
@@ -37,13 +46,14 @@ In information theory, *entropy* is a measure of the uncertainty associated with
 
 A file with high entropy shows few repeated patterns and is typically compressed/optimized.  Such a highly compressed data-stream will feature an entropy index of greater *>5* for a binary-base 2.
 
-###About
+###Purpose
 
 The purpose of this tool is quickly analyzing arbitrary files, for instance *biological sequence files* or *serialized JSON data*. Naturally powerful investigation options are granted to researchers in the form of the *[R-statistical language](http://www.r-project.org/ "The R Project for Statistical Computing")* or *[Matlab](http://www.mathworks.com/products/matlab/)* and *[Wolfram Mathematica](http://www.wolfram.com/mathematica/)*.
 
 **Ad hoc investigation** however is much faster with a dedicated command line tool along and the **features the console environment** provides such as **autocompletion** (`pressing Tab`). Virtually **no startup times** are required and plots can be output in web-compatible **vector graphics**.
 
 ### Usage
+```bash
     Usage: shantropy [<filename1> <fname2>...1st param!] [-f fromBy] [-t toBy] [-o <outfile>] [-h help]
     [-e efficiency] [-m 1,2.. 1st,2nd order markov] [-b base-alphabet]
     [-w width plot] [-h height plot] [-z zoom%] [-fp fileposition]
@@ -51,7 +61,7 @@ The purpose of this tool is quickly analyzing arbitrary files, for instance *bio
     Press CTRL+C or Q to Quit!
     Press PAGEUP / PAGEDOWN to zoom in or out of the file
     Press LEFT / RIGHT Arrow to navigate to the next or previous file-segment
-
+```
 
 ### Parameters
 - **-m 0** zero-order Markov source: *default* (pratically identical with Shannon entropy when the log-base is 2)
@@ -59,15 +69,15 @@ The purpose of this tool is quickly analyzing arbitrary files, for instance *bio
 - **-m 2** second-order Markov source e.g. `ent -m 2`
 - **-m `<n>`** n order markov source
 - **-b `<decimal>`** "b-ary entropy": a different base can be set with e.g. `ent -b 2,15` , default is 256 for ASCII; use 64 for literature-text
-
 - **-s `<stringdata>`** arbitrary string passing: *-s* must be passed as the last argument!
-
 - **-w `<int>`** width of the plot
 - **-h `<int>`** height of the plot
-
+- **-f,-t `<int>`** define a file segment in Byte (from/to). Both are optional
+- **-z** file-segment zoom in percent
+- **-fp** file-segment position (0-n)
 - **-o outfile** plot data to a given file and create or append to the file `outfile`,
-use `ent .... > myfilen.out` to capture the entire console output
-
+ - use `ent .... > myfilen.out` to capture the entire console output
+ - use `ent .... > mygraphics.svg` to plot to an svg file
 - **-e** ...plot the efficiency of the data
 - **-p** ...plot and compute the permutation efficiency
 
@@ -88,7 +98,7 @@ To calculate metrics for several files put them in sequence e.g. `ent explain.nf
 Example for a typical info (*.nfo*) file:
 the ordinate(y-axis) shows the entropy and the abscisse (x-axis) shows the file-segment position in percent
 
-*result:* the text is highly compressible and clearly structured
+*result:* the text is highly compressible and clearly shows structuring
 
 	0,50 |
 	0,45 |                                ¦
