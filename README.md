@@ -6,13 +6,21 @@
 
 ---
 
-**author**: lo sauer 2011-12; www.lsauer.com
+**author**: lo sauer 2011-12; www.lsauer.com   
+**website**: https://github.com/lsauer/entropy   
+**license**: MIT license   
+**description**: quickly plot entropy information and string metrics of arbitrary files or 
+strings from the console Input/Output   
 
-**website**: https://github.com/lsauer/entropy
+### Analysing a file:
 
-**license**: MIT license
+<img src="https://googledrive.com/host/0ByqWUM5YoR35SUREUWdZcTRiQ3M/ent_v0812_anim.Gif">
 
-**description**: quickly plot entropy information and string metrics of arbitrary files or strings from the console Input/Output
+
+### Cross Platform:
+
+<img src="https://googledrive.com/host/0ByqWUM5YoR35SUREUWdZcTRiQ3M/ent_running_ubuntu80.png">
+
 
 <example>
 
