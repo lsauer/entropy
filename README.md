@@ -17,13 +17,20 @@ strings from the console Input/Output
 <img src="https://googledrive.com/host/0ByqWUM5YoR35SUREUWdZcTRiQ3M/ent_v0812_anim.Gif">
 
 
-### Cross Platform:
+### Cross-Platform:
 
 <img src="https://googledrive.com/host/0ByqWUM5YoR35SUREUWdZcTRiQ3M/ent_running_ubuntu80.png">
 
 ### Plots as Vector graphics (default: .svg):
 
-![plot from the screencast](https://googledrive.com/host/0ByqWUM5YoR35SUREUWdZcTRiQ3M/json_testfiles.tar.out-Plot%28SHAN%29.svg "jasonfiles.tar")
+![plot from the 1st screencast](https://googledrive.com/host/0ByqWUM5YoR35SUREUWdZcTRiQ3M/json_testfiles.tar.out-Plot%28SHAN%29.svg "jasonfiles.tar")
+
+
+
+### Analysing a twitter-live stream
+
+<img src="https://googledrive.com/host/0ByqWUM5YoR35SUREUWdZcTRiQ3M/ent_analysing_a_twitter_stream.Gif">
+
 
 <example>
 
