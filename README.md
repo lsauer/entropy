@@ -14,22 +14,22 @@ strings from the console Input/Output
 
 ### Analysing a file:
 
-<img src="https://googledrive.com/host/0ByqWUM5YoR35SUREUWdZcTRiQ3M/ent_v0812_anim.Gif">
+<img src="https://lsauer.github.io/res/github/project/entropy/ent_v0812_anim.Gif">
 
 
 ### Cross-Platform:
 
-<img src="https://googledrive.com/host/0ByqWUM5YoR35SUREUWdZcTRiQ3M/ent_running_ubuntu80.png">
+<img src="https://lsauer.github.io/res/github/project/entropy/ent_running_ubuntu80.png">
 
 ### Plots as Vector graphics (default: .svg):
 
-![plot from the 1st screencast](https://googledrive.com/host/0ByqWUM5YoR35SUREUWdZcTRiQ3M/json_testfiles.tar.out-Plot%28SHAN%29.svg "jasonfiles.tar")
+![plot from the 1st screencast](https://lsauer.github.io/res/github/project/entropy/json_testfiles.tar.out-Plot%28SHAN%29.svg "jasonfiles.tar")
 
 
 
 ### Analysing a twitter-live stream
 
-<img src="https://googledrive.com/host/0ByqWUM5YoR35SUREUWdZcTRiQ3M/ent_analysing_a_twitter_stream.Gif">
+<img src="https://lsauer.github.io/res/github/project/entropy/ent_analysing_a_twitter_stream.Gif">
 
 
 <example>
