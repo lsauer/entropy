@@ -6,7 +6,7 @@
 
 ---
 
-**author**: lo sauer 2011-12; www.lsauer.com   
+**author**: lo sauer 2011-12; www.lsauer.net   
 **website**: https://github.com/lsauer/entropy   
 **license**: MIT license   
 **description**: quickly plot entropy information and string metrics of arbitrary files or 
@@ -135,14 +135,14 @@ the ordinate(y-axis) shows the entropy and the abscisse (x-axis) shows the file-
 ```
 
 ###Useful links: 
-- http://www.lsauer.com/2011/09/ent-plotting-entropy-and-computing.html
+- https://losauer.blogspot.com/2011/09/ent-plotting-entropy-and-computing.html
 - http://www.tiem.utk.edu/~mbeals/shannonDI.html
 - http://books.google.com/books?id=IxrjpbNH2XAC&pg=PA17&lpg=PA17&dq=second+order+markov+source
 
 ###Case studies:
-- http://www.lsauer.com/2011/10/google-chrome-session-restore-web.html
-- http://www.lsauer.com/2012/06/permutation-entropy-plot-added-to-ent.html
-- http://www.lsauer.com/2012/06/linkedin-lastfm-eharmony-analysis-of.html
+- https://losauer.blogspot.com/2011/10/google-chrome-session-restore-web.html
+- https://losauer.blogspot.com/2012/06/permutation-entropy-plot-added-to-ent.html
+- https://losauer.blogspot.com/2012/06/linkedin-lastfm-eharmony-analysis-of.html
 
 
 Fork it on github: https://github.com/lsauer/entropy
